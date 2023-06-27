@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png"
+        href="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/2009fe1d5e1ced1.png" />
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+    <header id="box-top">
+        <img src="./png-transparent-t-shirt-hoodie-unisex-clothing-wall-street-white-hand-logo-depositphotos-bgremover.png"
+            alt="img-header" width="800px" class="img-header">
+        <h1>Conversor de moedas</h1>
+    </header>
+
+    <main>
+        <label>Converter de
+            <select id="convert-for">
+                <option value="real">Real</option>
+                <option value="dolar">Dólar Americano</option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra esterlina</option>
+                <option value="iene">Iene</option>
+                <option value="australiano">Dólar Australiano</option>
+                <option value="franco">Franco Suíço</option>
+                <option value="canadense">Dólar Canadense</option>
+                <option value="yuan">Renminbi (Yuan)</option>
+                <option value="peso">Peso Argentino</option>
+                <option value="lira">Lira Turca</option>
+                <option value="rublo">Rublo russo</option>
+                <option value="dinar">Dinar kuwaitiano</option>
+                <option value="rial">Rial omanense</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+        </label>
+
+        <label>Para
+            <select id="convert-value">
+                <option value="real">Real</option>
+                <option value="dolar">Dólar Americano</option>
+                <option value="euro">Euro</option>
+                <option value="libra">Libra esterlina</option>
+                <option value="iene">Iene</option>
+                <option value="australiano">Dólar Australiano</option>
+                <option value="franco">Franco Suíço</option>
+                <option value="canadense">Dólar Canadense</option>
+                <option value="yuan">Renminbi (Yuan)</option>
+                <option value="peso">Peso Argentino</option>
+                <option value="lira">Lira Turca</option>
+                <option value="rublo">Rublo russo</option>
+                <option value="dinar">Dinar kuwaitiano</option>
+                <option value="rial">Rial omanense</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+        </label>
+
+        <input placeholder="Digite o valor aqui" type="number" id="input-number-convert">
+        <button onclick="convert_values()">Converter</button>
+
+        <section>
+            <img src="./assets(Convert)/arrow-money.gif" alt="arrow-down-img" width="80px" class="first-arrow">
+        </section>
+
+        <section id="box-flags">
+            <img src="./assets(Flags)/brazil-.png" alt="" width="50px" class="flag-one">
+            <p class="name-country-one"><strong>Brasil</strong></p>
+
+            <img src="./assets(Convert)/arrow-bottom.gif" alt="arrow-right" height="50px">
+            <img src="./assets(Flags)/brazil-.png" alt="" width="50px" class="flag-two">
+            <p class="name-country-two"><strong>Brasil</strong></p>
+        </section>
+
+        <section>
+            <img src="./assets(Convert)/down-arrow-going-down.gif" alt="arrow-convert-img" width="80px"
+                class="second-arrow">
+        </section>
+
+        <section id="box-coin">
+            <img src="./assets(coins)/brazilian-real.png" alt="img-coin-flag-one" width="50px" class="coin-one">
+            <p class="value-one"><strong>R$ 0,00</strong></p>
+            <img src="./assets(Convert)/money-with-wings-joypixels.gif" alt="money-wings-img" width="80px">
+            <img src="./assets(coins)/brazilian-real.png" alt="img-coin-flag-two" width="50px" class="coin-two">
+            <p class="value-two"><strong>R$ 0,00</strong></p>
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>

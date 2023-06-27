@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Domine', serif;
+}
+
+body {
+    background: #DDE6ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#box-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2B2730;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffffffdc;
+    width: 400px;
+    height: 1120px;
+    margin: 10px 0 10px;
+    border-radius: 30px;
+}
+
+label {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: baseline;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+select {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 100%;
+    margin-right: 150px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: solid #2B2730;
+    color: #0A6EBD;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+
+#convert-value {
+    color: #F24C3D;
+    border-color: #2B2730;
+}
+
+input {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 30px;
+    width: 82%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 5px;
+    outline: none;
+    appearance: none;
+    cursor: text;
+    border: solid #001C30;
+    border-radius: 15px;
+    padding-right: 5px;
+}
+
+button {
+    margin-top: 30px;
+    width: 50%;
+    cursor: pointer;
+    height: 40px;
+    font-size: 20px;
+    border: solid #001C30;
+    border-radius: 15px;
+    color: #1B9C85;
+    background: #EEEEEE;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+.first-arrow,
+.second-arrow {
+    margin-right: 18px;
+    margin-top: 10px;
+}
+
+#box-flags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+    gap: 15px;
+    border: solid #0A6EBD;
+    border-radius: 30px;
+}
+
+.flag-one {
+    margin-top: 10px;
+}
+
+#box-coin {
+    border: solid #F24C3D;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.coin-one {
+    margin-top: 10px;
+}
+
+.name-country-two,
+.value-two {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 820px) {
+
+    .img-header {
+        width: 550px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    main {
+        width: 350px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    select {
+        margin-right: 100px;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    input {
+        font-size: 15px;
+        width: 60%;
+        padding-left: 10px;
+    }
+
+    button,
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .img-header {
+        width: 400px;
+    }
+}
